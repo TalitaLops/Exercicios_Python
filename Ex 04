@@ -8,5 +8,4 @@ elif (valor3 > valor2 and valor1 > valor2):
   print("A soma dos valores maiores é: ", valor1 + valor3)
 else:
   print("A soma dos valores maiores é: ", valor2 + valor3)
-  
-  //Ler 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+
