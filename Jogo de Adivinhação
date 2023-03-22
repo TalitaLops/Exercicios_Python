@@ -1,0 +1,20 @@
+import random;
+print ("Você vai jogar um jogo de adivinhação! Tente descobrir o número secreto em 5 tentativas !!");
+
+tentativa = 0;
+numeroSecreto = random.randint(1,50)
+
+while tentativa < 5:
+  palpite = int(input("Digite um número "))
+  tentativa += 1
+  
+  if (palpite == numeroSecreto):
+    print("Parabéns, você acertou o número")
+    break
+  elif (palpite < numeroSecreto):
+    print("O número certo é maior que este", palpite);
+  else:
+    print("O número certo é menor que este", palpite);
+
+if (tentativa == 5 and palpite != numeroSecreto):
+  print("Você não descobriu, o número era ", numeroSecreto);
