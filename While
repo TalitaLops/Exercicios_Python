@@ -17,4 +17,25 @@ EXERCICIOS WHILE
 
     print("Fogo !");
 -------------------------
-4 - 
+4 -  i = 1;
+     x = int(input("Digite um numero: "));
+     while i <= x:
+       i += 2
+
+       if i > x:
+         break
+
+       print(i);
+---------------------------
+5 -  i = 0;
+     x = int(input("Digite um numero: "));
+     while i < x:
+       i += 3
+       print(i);
+----------------------------
+6 -  i = 0;
+     x = int(input("Digite um numero: "));
+     l = x * 10; 
+     while i < l:
+       i += x
+       print(i);
