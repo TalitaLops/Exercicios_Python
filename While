@@ -39,3 +39,19 @@ EXERCICIOS WHILE
      while i < l:
        i += x
        print(i);
+----------------------------
+7 - x = int(input("Digite a tabuada que você quer: "));
+     i = int(input("Digite a partir de qual numero: "));
+     l = int(input("Digite o numero para encerrar: ")); 
+     while i < l:
+       tab = x * i
+       i += 1
+       print(tab);
+----------------------------
+8 -  n1 = int(input("Digite um numero "));
+     n2 = int(input("Digite um numero "));
+     tab = n1 * n2;
+
+     for tab in range(n2):
+       n1 += 0
+       print ("+",n1);
