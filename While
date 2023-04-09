@@ -55,3 +55,40 @@ EXERCICIOS WHILE
      for tab in range(n2):
        n1 += 0
        print ("+",n1);
+-----------------------------
+10 - print("Questão 1 - O que é o que é passa diante do sol e não faz sombra?\n a) a água \n b) o vento \n c) a lua \n d) o gato");
+     r1 = input("A resposta da primeira pergunta é: ");
+     if r1 == "b" or r1 == "B":
+       print("A resposta está certa. +1 Ponto \n");
+     else: 
+       print("A resposta está errada \n");
+
+     print("Questão 2 - O que é o que é tem cidades, lojas, ruas e nenhuma pessoa? \n a)o mapa \n b) o caderno\n c) a maleta \n d)o cinto\n ");
+     r2 = input("A resposta da primeira pergunta é: ");
+     if r2 == "a" or r2 == "A":
+       print("A resposta está certa. +1 Ponto \n");
+     else: 
+       print("A resposta está errada \n");
+
+     print("Questão 3 - O que é o que é não tem pés e corre, e tem leito e não dorme? \n a) o mato\n b) a onça\n c) o buraco\n d) o rio\n");
+     r3 = input("A resposta da primeira pergunta é: ");
+     if r3 == "d" or r3 == "D":
+       print("A resposta está certa. +1 Ponto \n");
+     else: 
+       print("A resposta está errada \n"); 
+------------------------------------------------
+11 - dinheiro = float(input("Digite o valor investido: "));
+     juros = float(input("Digite a taxa de juros: "));
+
+     for dinheiro in range(24):
+       dinheiro += juros
+       print("O total do mês é: ", dinheiro)
+------------------------------------------------
+12 - dinheiro = float(input("Digite o valor investido: "));
+     juros = float(input("Digite a taxa de juros: "));
+
+     for dinheiro in range(24):
+       mes = dinheiro + (juros/100);
+       dinheiro += 0
+       print("O total do mês é: ", mes)
+------------------------------------------------
