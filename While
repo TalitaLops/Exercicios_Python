@@ -92,3 +92,14 @@ EXERCICIOS WHILE
        dinheiro += 0
        print("O total do mês é: ", mes)
 ------------------------------------------------
+13 - divida = float(input("Qual o valor inicial da divida? "))
+     juros = float(input("Qual a taxa de juros ao mês? "))
+     valor_mês = float(input("Qual valor será pago por mês? "))
+
+     meses = divida / valor_mês
+     total_pago= divida * (1+ juros/100)*meses
+
+     print("O valor ser pago em ",meses," meses")
+     print("O total a ser pago é ",total_pago)
+------------------------------------------------
+14 - 
