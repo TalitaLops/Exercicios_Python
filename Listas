@@ -1,0 +1,155 @@
+#Crie uma lista vazia chamada numeros.
+
+numeros = list();
+
+---------------------------------------------
+#Verifique se a lista numeros está vazia.
+
+numeros = list();
+print(numeros);
+
+----------------------------------------------
+#Adicione os números 1, 2, 3 e 4 na lista numeros.
+
+numeros = list(1,2,3,4);
+print(numeros);
+
+------------------------------------------------
+#Adicione o número 5 na posição 2 da lista numeros. 
+
+numeros = ["1","2","3","4"]
+numeros.insert(2, "5")
+print(numeros)
+
+--------------------------------------------------
+#Adicione o número 6 no final da lista numeros. 
+
+numeros = [1,2,3,4]
+numeros.insert(2, 5)
+numeros.append(6)
+print(numeros)
+
+----------------------------------------------------
+#Exclua o número 3 da lista numeros.
+
+numeros = [1,2,3,4]
+numeros.insert(2, 5)
+numeros.append(6)
+del numeros[3]
+print(numeros)
+
+------------------------------------------------------
+#Acesse o número 4 da lista numeros. 
+
+numeros = [1,2,3,4]
+numeros.insert(2, 5)
+numeros.append(6)
+del numeros[3]
+print(numeros[4])
+
+------------------------------------------------------
+#Altere o número 2 da lista numeros para 10.
+
+numeros = [1,2,3,4]
+numeros.insert(2, 5)
+numeros.append(6)
+del numeros[3]
+numeros.insert(2, 10)
+print(numeros)
+
+------------------------------------------------------
+#Identifique quantos itens há na lista numeros. 
+
+numeros = [1,2,3,4]
+numeros.insert(2, 5)
+numeros.append(6)
+del numeros[3]
+numeros.insert(2, 10)
+quantidade = len(numeros)
+print(quantidade)
+
+-------------------------------------------------------
+#Crie uma lista chamada mais_numeros com os números 7, 8, 9 e 10. 
+
+numeros = [1,2,3,4]
+numeros.insert(2, 5)
+numeros.append(6)
+del numeros[3]
+numeros.insert(2, 10)
+
+mais_numeros = [7,8,9,10]
+
+print(numeros)
+
+------------------------------------------------------------------
+#Concatene a lista mais_numeros com a lista numeros. 
+
+numeros = [1,2,3,4]
+numeros.insert(2, 5)
+numeros.append(6)
+del numeros[3]
+numeros.insert(2, 10)
+
+mais_numeros = [7,8,9,10]
+numeros.extend(mais_numeros)
+print(numeros)
+
+---------------------------------------------------------------------
+#Imprima todos os elementos da lista numeros separados por vírgula. 
+
+numeros = [1,2,3,4]
+numeros.insert(2, 5)
+numeros.append(6)
+del numeros[3]
+numeros.insert(2, 10)
+
+mais_numeros = [7,8,9,10]
+numeros.extend(mais_numeros)
+print(numeros)
+
+----------------------------------------------------------------------
+#Divida a lista numeros em duas listas: primeira_metade e segunda_metade.
+
+numeros = [1,2,3,4]
+numeros.insert(2, 5)
+numeros.append(6)
+del numeros[3]
+numeros.insert(2, 10)
+
+mais_numeros = [7,8,9,10]
+numeros.extend(mais_numeros)
+
+primeiraMetade = numeros[:len(numeros)//2]
+segundaMetade = numeros[len(numeros)//2:]
+print(primeiraMetade)
+print(segundaMetade)
+
+----------------------------------------------------------------------------
+#Classifique a lista numeros em ordem crescente. 
+
+numeros = [1,2,3,4]
+numeros.insert(2, 5)
+numeros.append(6)
+del numeros[3]
+numeros.insert(2, 10)
+
+mais_numeros = [7,8,9,10]
+numeros.extend(mais_numeros)
+
+numeros.sort()
+print(numeros)
+
+--------------------------------------------------------------------------
+#Inverta a ordem dos itens da lista numeros. 
+
+numeros = [1,2,3,4]
+numeros.insert(2, 5)
+numeros.append(6)
+del numeros[3]
+numeros.insert(2, 10)
+
+mais_numeros = [7,8,9,10]
+numeros.extend(mais_numeros)
+
+numeros.reverse()
+print(numeros)
